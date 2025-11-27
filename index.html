@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM7h+67rnZ23JQK4nSfnr/Vf1ofGFWmVME/Zd2b" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+</head>
+<style>
+    
+</style>
+<body>
+
+  <!-- Navigation Bar -->
+  <!DOCTYPE html>
+
+
+  <body>
+    <nav id="navbar">
+        <div class="logo"><b>Nanda Trade International</b></div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="about.html" class="nav-item">About</a>
+            <a href="map.html" class="nav-item">Contact</a>
+           
+        </div>
+        <!-- Add a button to toggle the dropdown -->
+        <button class="toggle-btn" onclick="toggleDropdown()">☰</button>
+    </nav>
+
+    <script>
+    function toggleDropdown() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("show");
+    }
+    </script>
+
+    <style>
+    /* Add some basic styling for the dropdown */
+    .nav-links {
+        display: none; /* Hidden by default */
+    }
+    .nav-links.show {
+        display: block; /* Show when toggled */
+    }
+    .toggle-btn {
+      
+    
+        right: 40px; /* Align it to the left */
+        background-color: #555;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        padding: 8px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    </style>
+</body>
+
+</script>
+<div class="header">
+  <div class="main-text">
+    <h1>Spicing Your World</h1>
+    <h2>Where Quality Meets the Spice!</h2>
+  </div>
+</div>
+
+<!-- Content goes here -->
+
+<script>
+    // Scroll effect for navbar background change
+    window.onscroll = function() {
+        const navbar = document.getElementById("navbar");
+        if (window.scrollY > 50) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    };
+</script>
+
+</body>
+
+
+    <!-- Dealer Section -->
+<section class="dealer-section">
+    <div class="button-box">
+        <a href="form.html" class="navs-button">
+            <button>
+                <i class="fas fa-user-plus"></i>Dealer
+            </button>
+        </a>
+    </div>
+</section>
+
+
+    <!-- Products Section -->
+    <section id="products">
+        <hr>
+        <h2>Our Products</h2>
+        <center>
+        <div class="product">
+            <div class="product-card">
+                <img src="masala5.jpg" alt="Product 1" class="product-img">
+                <h3>Himalayan Turmeric</h3>
+                <p>Pure and organic turmeric sourced from the pristine farms of Nepal.</p>
+            </div>
+            <div class="product-card">
+                <img src="masala6.jpg" alt="Product 2" class="product-img">
+                <h3>Authentic Garam Masala</h3>
+                <p>A signature blend of spices made with traditional Nepali recipes.</p>
+            </div>
+            <div class="product-card">
+                <img src="masala7.jpg" alt="Product 3" class="product-img">
+                <h3>Red Chili Powder</h3>
+                <p>Hot and flavorful, made from the finest sun-dried chilies of Nepal.</p>
+            </div>
+        </div>
+    </section>
+</center>
+</head>
+<body>
+    
+    <div class="container">
+        <img src="nepal.jpg" alt="Badshah Masala international expansion" class="fade-in">
+       
+        <div class="text fade-in">
+            
+
+<h2>FROM TIN CANS TO YOUR DINNER TABLE!</h2>
+<p>Over the years, Nanda Trade International has evolved into a premier Indian spice manufacturer, dedicated to bringing authentic flavors to your kitchen. We are excited about our journey ahead. Thanks to the unwavering support of our customers, particularly the love of Nepali households for our products, we have been able to carry forward this rich heritage. Today, Nanda Trade International proudly serves not just the Indian market but also has expanded its reach to international markets, including Nepal.</p>
+        </div>
+    </div>
+    
+    <script>
+        // Intersection Observer to add fade-in effect
+        const fadeIns = document.querySelectorAll('.fade-in');
+    
+        const options = {
+            root: null, // Use the viewport as the container
+            rootMargin: '0px',
+            threshold: 0.1 // Trigger when 10% of the element is visible
+        };
+    
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible'); // Add visible class when in view
+                    observer.unobserve(entry.target); // Stop observing once it's visible
+                }
+            });
+        }, options);
+    
+        // Observe each fade-in element
+        fadeIns.forEach(fadeIn => {
+            observer.observe(fadeIn);
+        });
+    </script>
+     <section id="ourgallery">
+        <hr>
+        <h2>Our Gallery</h2>
+        <div class="gallery">
+            <img src="food1.jpg" alt="Gallery Image 1" style="--order: 1;">
+            <img src="food2.jpg" alt="Gallery Image 2" style="--order: 2;">
+            <img src="food3.jpg" alt="Gallery Image 3" style="--order: 3;">
+            <img src="food13.jpg" alt="Gallery Image 4" style="--order: 4;">
+            <img src="food17.jpg" alt="Gallery Image 5" style="--order: 5;">
+            <img src="food15.jpg" alt="Gallery Image 6" style="--order: 6;">
+            <img src="food14.jpg" alt="Gallery Image 7" style="--order: 7;">
+            <img src="food16.jpg" alt="Gallery Image 8" style="--order: 8;">
+            <img src="food17.jpg" alt="Gallery Image 9" style="--order: 9;">
+            <img src="food5.jpg" alt="Gallery Image 10" style="--order: 10;">
+        </div>
+    </section>
+
+   
+                
+                    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                    
+                </head>
+                <body>
+                
+                    <div id="videoCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <video class="d-block w-100" muted>
+                                    <source src="Ashok masala.MOV" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="progress-container">
+                                    <div class="progress" id="progress1">
+                                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <video class="d-block w-100" muted>
+                                    <source src="ad1.mp4.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="progress-container">
+                                    <div class="progress" id="progress2">
+                                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <video class="d-block w-100" muted>
+                                    <source src="ad2.mp4.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="progress-container">
+                                    <div class="progress" id="progress3">
+                                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    
+                
+                <!-- jQuery and Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="script2.js"></script>
+    <br>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Company Overview Section -->
+                <div class="company-overview">
+                    <h3>Company Overview</h3>
+                    <p>Delivering excellence in every product, our commitment to customer satisfaction ensures you get the best quality and innovative solutions, tailored to your needs.</p>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="footer-links-container">
+                    <ul class="footer-links">
+                        <li><a href="faqs.html">FAQS</a></li>
+                        <li><a href="map.html">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+    
+                <div class="footer-social-media">
+                    <h3>Connect With Us</h3>
+                    <div class="contact-nav">
+                        <a href="https://wa.me/your-9779825660414" class="contact-icon" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61553542466737" class="contact-icon" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook" style="color: #3b5998;"></i>
+                        </a>
+                        <a href="nandatradeinternational@gmail.com class="contact-icon" target="_blank" title="Email">
+                            <i class="fas fa-envelope" style="color: #EA4335;"></i>
+                        </a>
+                        
+                        <a href="tel:+9779825660414" class="contact-icon" target="_blank" title="Phone">
+                            <i class="fas fa-phone" style="color: #25D366;"></i>
+                        </a>
+                    </div>
+                </div>
+    
+    
+                <!-- Copyright Section -->
+                <hr>
+                <p>Copyright 2024 All Rights Reserved. <span class="brand">Your Company</span></p>
+            </div>
+        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </footer>
+    
+    
+  
+</body>
+</html>

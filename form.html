@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Nanda Trade International</title>
+    
+<body>
+    
+   
+    </head>
+    <body>
+    
+      <!-- Navigation Bar -->
+        
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <div class="logo"><b>Nanda Trade International</b></div>
+    <div class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About</a>
+        <a href="map.html" class="nav-item">Contact</a>
+    </div>
+    <!-- Add a button to toggle the dropdown -->
+    <button class="toggle-btn" onclick="toggleDropdown()">☰</button>
+</nav>
+
+<script>
+function toggleDropdown() {
+    const navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("show");
+}
+</script>
+
+
+
+</body>
+   
+        
+
+    <title>Become a Dealer</title>
+    <section class="dealer-section">
+        <div class="button-box">
+            <a href="form.html" class="navs-button">
+                <button>
+                    <i class="fas fa-user-plus"></i>Dealer
+                </button>
+            </a>
+        </div>
+    </section>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light background */
+        }
+
+        .login-section {
+            max-width: 400px; /* Limit width for better appearance on larger screens */
+            margin: 50px auto; /* Center the form */
+            padding: 20px;
+            background: #ffffff; /* White background for the form */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center; /* Center the heading */
+            color: #3498db; /* Primary color */
+            margin-bottom: 20px; /* Space below heading */
+        }
+
+        .input-group {
+            margin-bottom: 15px; /* Space between input fields */
+        }
+
+        label {
+            display: block; /* Make labels block elements */
+            margin-bottom: 5px; /* Space below labels */
+            color: #555; /* Darker color for text */
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%; /* Full width input */
+            padding: 10px; /* Padding inside input */
+            border: 1px solid #ccc; /* Light border */
+            border-radius: 5px; /* Rounded input corners */
+            box-sizing: border-box; /* Include padding in width */
+        }
+
+    
+
+        @media (max-width: 768px) {
+            .login-section {
+                width: 90%; /* Full width on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-section">
+    <h2>Become a Dealer</h2>
+    <form action="pp.php" method="POST"> <!-- Change action to your data processing file -->
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required placeholder="Enter your username">
+        </div>
+        <div class="input-group">
+            <label for="contact">Contact Number</label>
+            <input type="text" id="contact" name="contact" required placeholder="Enter your contact number">
+        </div>
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+        </div>
+        <button type="submit">Submit</button>
+        <p><a href="view_dealers.php">Go to Admin Login Page</a></p>
+    </form>
+
+</div>
+<script src="script2.js"></script>
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <!-- Company Overview Section -->
+            <div class="company-overview">
+                <h3>Company Overview</h3>
+                <p>Delivering excellence in every product, our commitment to customer satisfaction ensures you get the best quality and innovative solutions, tailored to your needs.</p>
+            </div>
+
+            <!-- Quick Links Section -->
+            <div class="footer-links-container">
+                <ul class="footer-links">
+                    <li><a href="faqs.html">FAQS</a></li>
+                    <li><a href="map.html">Contact Us</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="footer-social-media">
+                <h3>Connect With Us</h3>
+                <div class="contact-nav">
+                    <a href="https://wa.me/your-9779825660414" class="contact-icon" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61553542466737" class="contact-icon" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook" style="color: #3b5998;"></i>
+                    </a>
+                    <a href="nandatradeinternational@gmail.com class="contact-icon" target="_blank" title="Email">
+                        <i class="fas fa-envelope" style="color: #EA4335;"></i>
+                    </a>
+                    
+                    <a href="tel:+9779825660414" class="contact-icon" target="_blank" title="Phone">
+                        <i class="fas fa-phone" style="color: #25D366;"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Copyright Section -->
+            <hr>
+            <p>Copyright 2024 All Rights Reserved. <span class="brand">Your Company</span></p>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</footer>
+
+</body>
+</html>

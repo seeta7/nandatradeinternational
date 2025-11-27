@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Nanda Trade International</title>
+    
+<body>
+    
+   
+    </head>
+    <body>
+    
+      <!-- Navigation Bar -->
+        
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <div class="logo"><b>Nanda Trade International</b></div>
+    <div class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About</a>
+        <a href="map.html" class="nav-item">Contact</a>
+    </div>
+    <!-- Add a button to toggle the dropdown -->
+    <button class="toggle-btn" onclick="toggleDropdown()">☰</button>
+</nav>
+
+<script>
+function toggleDropdown() {
+    const navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("show");
+}
+</script>
+
+<style>
+/* Add some basic styling for the dropdown */
+.nav-links {
+    display: none; /* Hidden by default */
+}
+.nav-links.show {
+    display: block; /* Show when toggled */
+}
+.toggle-btn {
+        position: absolute; /* Position it absolutely within the navbar */
+        right: 20px; /* Align it to the left */
+        background-color: #555;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        padding: 8px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+</style>
+</body>
+
+</script>
+
+
+<!-- Content goes here -->
+
+<script>
+// Scroll effect for navbar background change
+window.onscroll = function() {
+    const navbar = document.getElementById("navbar");
+    if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+};
+</script>
+    <!-- Dealer Section -->
+    <section class="dealer-section">
+        <div class="button-box">
+            <a href="form.html" class="navs-button">
+                <button>
+                    <i class="fas fa-user-plus"></i>Dealer
+                </button>
+            </a>
+        </div>
+    </section>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6;
+        }
+
+        /* Why Choose Us Section */
+        .why-choose-us {
+            background: linear-gradient(to right, rgba(255, 183, 77, 0.9), rgba(255, 140, 0, 0.9));
+            color:black;
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            max-width: 1200px;
+            width: 90%; /* Make it responsive */
+            margin: 20px auto; /* Center the section */
+        }
+
+        .why-choose-us h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .why-choose-us h2 span {
+            color: #00e676;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .feature {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            width: 220px; /* Width for larger screens */
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 0.9em;
+            color: black;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            .feature {
+                width: 90%; /* Full width on mobile */
+                margin: 0 auto; /* Center the feature cards */
+            }
+
+            .why-choose-us h2 {
+                font-size: 2em; /* Adjust font size for mobile */
+            }
+        }
+    </style>
+</head>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2>Why <span>CHOOSE</span> US?</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="icon">🌶️</div>
+                    <h3>Premium Quality Masala</h3>
+                    <p>We source only the high quality masala from trusted suppliers, ensuring authentic flavor and freshness.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🌍</div>
+                    <h3>Trusted International Partnerships</h3>
+                    <p>With a global network of suppliers, we bring reliable partnerships to meet our clients' needs.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">💲</div>
+                    <h3>Competitive Pricing</h3>
+                    <p>Get the best value for premium products through our optimized supply chain and strategic pricing.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🕒</div>
+                    <h3>24/7 Customer Support</h3>
+                    <p>Our dedicated team is here around the clock to assist with orders, inquiries, and feedback.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🚚</div>
+                    <h3>Quick and Secure Shipping</h3>
+                    <p>Ensuring fast, safe delivery so your orders arrive on time and in excellent condition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Company Overview Section -->
+                <div class="company-overview">
+                    <h3>Company Overview</h3>
+                    <p>Delivering excellence in every product, our commitment to customer satisfaction ensures you get the best quality and innovative solutions, tailored to your needs.</p>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="footer-links-container">
+                    <ul class="footer-links">
+                        <li><a href="faqs.html">FAQS</a></li>
+                        <li><a href="map.html">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-social-media">
+                    <h3>Connect With Us</h3>
+                    <div class="contact-nav">
+                        <a href="https://wa.me/your-9779825660414" class="contact-icon" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61553542466737" class="contact-icon" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook" style="color: #3b5998;"></i>
+                        </a>
+                        <a href="nandatradeinternational@gmail.com" class="contact-icon" target="_blank" title="Email">
+                            <i class="fas fa-envelope" style="color: #EA4335;"></i>
+                        </a>
+                        
+                        <a href="tel:+9779825660414" class="contact-icon" target="_blank" title="Phone">
+                            <i class="fas fa-phone" style="color: #25D366;"></i>
+                        </a>
+                    </div>
+                </div>
+    
+    
+                <!-- Copyright Section -->
+                <hr>
+                <p>Copyright 2024 All Rights Reserved. <span class="brand">Your Company</span></p>
+            </div>
+        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
